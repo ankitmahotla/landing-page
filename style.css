@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+header .right {
+    margin-left: 80px;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    color: #E5E7EB;
+}
+
+ul li {
+    font-size: 16px;
+}
+
+.main {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main .left {
+    color: #E5E7EB;
+    width: 500px;
+}
+
+.main .right {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main span {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+img {
+    height: 250px;
+}
+
+.main .left button {
+    margin-top: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
+    padding: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 11px;
+    border: none;
+}
+
+.first {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+}
+
+.container .box {
+    width: 200px;
+}
+
+.first h1 {
+    color: #1F2937;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.second {   
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;     
+    color: #1F2937;
+    padding: 20px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+.first img {
+    height: 200px;
+    width: 200px;
+}
+
+.si {
+    text-align: right;
+    font-weight: 700;
+}
+
+.blueContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 30px;
+    border-radius: 12px;
+    border: none;
+    color: #F9FAF8;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.blueContainer span {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.third {
+    padding: 30px;
+}
+
+.blueContainer button {
+    margin-top: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
+    padding: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 11px;
+    border-color: #F9FAF8;
+}
+
+.blueContainer .text {
+    margin-right: 80px;
+}
+
+.blueContainer p {
+    color: #E5E7EB;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 8px;
+}
